@@ -1,0 +1,6 @@
+let row=line(".")
+call append(row,"%%%-----------------------------------------------")
+call append(row+1,"%%%  ")
+call append(row+2,"%%%  ")
+call append(row+3,"%%%-----------------------------------------------")
+call cursor(row+2,8)
