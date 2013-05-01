@@ -1,4 +1,3 @@
-"path etc/vim/vimrc.local
 call pathogen#infect()
 "filetype plugin indent on
 set tabstop=4
@@ -8,9 +7,10 @@ set expandtab
 set number
 let Tlist_Ctags_Cmd='/usr/bin/ctags'
 nnoremap <silent> <F8> :TlistToggle <CR>
-map <F3> :source /home/zj/vimscript/erlangFunctionAnnotation.vim<CR>
-map erlfn :source /home/zj/vimscript/erlangFunctionAnnotation.vim<CR>
-map erln :source /home/zj/vimscript/erlangAnnotationHead.vim<CR>
+map <F3> :source /home/zj/MyVimScript/erlangFunctionAnnotation.vim<CR>
+map erlfn :source /home/zj/MyVimScript/erlangFunctionAnnotation.vim<CR>
+map erln :source /home/zj/MyVimScript/erlangAnnotationHead.vim<CR>
+map erlh :source /home/zj/MyVimScript/erlangHead.vim<CR>
 
 
 "if has("autocmd")
