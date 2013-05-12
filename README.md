@@ -1,2 +1,2 @@
-MyVimSrcipt
+MyVimScript
 ===========
